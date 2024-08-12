@@ -590,6 +590,18 @@ video {
   }
 }
 
+.sr-only{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
 .mb-4{
   margin-bottom: 1rem;
 }
@@ -678,18 +690,6 @@ video {
 .bg-white{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-\[url\(\'\.\/images\/bg-pattern-quotation\.svg\'\)\]{
-  background-image: url('./images/bg-pattern-quotation.svg');
-}
-
-.bg-right-top{
-  background-position: right top;
-}
-
-.bg-no-repeat{
-  background-repeat: no-repeat;
 }
 
 .p-4{
